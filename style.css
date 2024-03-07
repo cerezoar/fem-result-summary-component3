@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-size: 18px;
+    font-family: "Hanken Grotesk", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+p .small {
+    font-weight: bold;
+}
+
+.container {
+    width: 760px;
+    height: 500px;
+    margin: 200px auto;
+    display: flex;
+    flex-basis: 360px;
+    box-shadow: 5px 5px 20px lightgrey;
+    border-radius: 2rem;
+    /* reference only */
+    /* background-color: antiquewhite;  */
+}
+
+/* Result container */
+.results {
+    /* for reference only */
+    background: rgb(120, 87, 255);
+        background: linear-gradient(180deg, rgba(120, 87, 255, 1) 10%, rgba(46, 43, 233, 1) 88%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    border-radius: 2rem;
+    opacity: .9;
+    /* for reference only */
+    /* border: red 1px solid; */
+}
+
+.results h1 {
+    color: hsl(241, 100%, 89%);
+    margin: 35px auto;
+}
+
+.results h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.results p {
+    font-size: 15px;
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+    font-weight: bold;
+    padding: 0 60px;
+    line-height: 1.5;
+    padding: 0 5rem;
+}
+.results .score {
+    background: rgb(78, 33, 202);
+        background: linear-gradient(180deg, rgba(78, 33, 202, 1) 16%, rgba(36, 33, 202, 0.8772759103641457) 87%);;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+    /* border: green 1px solid; */
+}
+
+.results .score p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.results .score p .big {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    height: 65px;
+}
+
+/* summary container */
+.summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    /* for reference only */
+        /* border: blue 1px solid; */
+    }
+
+.summary h1 {
+    align-self: start;
+    margin-top: 35px;
+    margin-left: 40px;
+    font-size: bold;
+}
+
+.summary .sum-box-container {
+    /* background-color: antiquewhite; */
+    width: 80%;
+    margin: 30px 35px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* for reference only */
+    /* border: red 1px solid; */
+}
+
+.summary .sum-box-container .sum-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    border-radius: 10px;
+    /* for refence only */
+    /* border: red 1px solid; */
+}
+
+
+.summary .sum-box-container .react {
+    background-color: #fff6f5;
+}
+
+.summary .sum-box-container .mem {
+    background-color: #fffbf2;
+}
+.summary .sum-box-container .ver {
+    background-color: #f2fbfa;
+}
+.summary .sum-box-container .vis {
+    background-color: #f3f3fe;
+}
+
+
+.reaction,
+.memory,
+.verbal,
+.visual {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.reaction p,
+.memory p,
+.verbal p,
+.visual p {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.reaction p {
+    color: #ff5757;
+}
+.memory p {
+    color: #ffb01f;
+}
+.verbal p {
+    color: #00bd91;
+}
+.visual p {
+    color: #1125d4;
+}
+.react p, .mem p, .ver p, .vis p {
+    margin-right: 10px;
+}
+
+.small {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+.gray {
+    color: gray;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.summary button {
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    align-self: center;
+    width: 80%;
+    height: 55px;
+    border-radius: 26px;
+}
+
+.summary button:hover {
+    background-color: #553bf7;
+}
+
